@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T15:18:25.237Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="j76obhTiueZVy2DsK8gU" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-10T15:18:41.111Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="i0s5XM-5nxWqFJ1T365B" version="22.1.0" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2369" dy="1143" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="1143" dy="552" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -467,15 +467,6 @@
         </mxCell>
         <mxCell id="LEeNHCaEj4kO8tNSxgfI-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;JogadorQueAssistiu&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="923" y="890" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LEeNHCaEj4kO8tNSxgfI-29" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;TipoDeEvento&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="640" y="1085" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LEeNHCaEj4kO8tNSxgfI-30" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;TipoDeEvento&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="587" y="939" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LEeNHCaEj4kO8tNSxgfI-31" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;TipoDeEvento&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="646" y="990" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LEeNHCaEj4kO8tNSxgfI-32" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;EventosNaRonda&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="487" y="963" width="100" height="30" as="geometry" />
