@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T15:31:07.720Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="9UmRq3xjrnnZTQ7cts9y" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-10T15:33:40.304Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="hqS_QSojfa9rQGtrM-P5" version="22.1.0" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="2211" dy="1067" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#000000" math="0" shadow="0">
+    <mxGraphModel dx="3316" dy="1600" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,10 +51,10 @@
         <mxCell id="9Ka-WZvEReShKsLX9K6u-70" value="&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;nome&lt;/font&gt;&lt;/div&gt;" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontColor=#1A1A1A;" parent="9Ka-WZvEReShKsLX9K6u-68" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="9Ka-WZvEReShKsLX9K6u-69" value="vitorias" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="9Ka-WZvEReShKsLX9K6u-68" vertex="1">
+        <mxCell id="9Ka-WZvEReShKsLX9K6u-69" value="/vitorias" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="9Ka-WZvEReShKsLX9K6u-68" vertex="1">
           <mxGeometry y="52" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="9Ka-WZvEReShKsLX9K6u-110" value="derrotas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="9Ka-WZvEReShKsLX9K6u-68" vertex="1">
+        <mxCell id="9Ka-WZvEReShKsLX9K6u-110" value="/derrotas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="9Ka-WZvEReShKsLX9K6u-68" vertex="1">
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="JwK9TQ3U5i1SRj9SoQAU-14" value="classificação" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=0;fontColor=#FFFFFF;" parent="9Ka-WZvEReShKsLX9K6u-68" vertex="1">
@@ -549,10 +549,18 @@
           <mxGeometry x="56" y="622" width="290" height="112" as="geometry" />
         </mxCell>
         <mxCell id="M6pGRdiC99S7ldXGU6yD-23" value="&lt;div&gt;Os atributos jogosEquipa1 e jogosEquipa2, derivam do número de jogos em que a equipa é vencedor. O atributo vencedor por sua vez é a equipa que tem maior número de jogos.&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;labelBackgroundColor=none;rounded=0;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
-          <mxGeometry x="56" y="442" width="290" height="112" as="geometry" />
+          <mxGeometry x="56" y="486" width="290" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="M6pGRdiC99S7ldXGU6yD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.465;entryDx=0;entryDy=0;strokeColor=#FFFFFF;endArrow=none;endFill=0;dashed=1;entryPerimeter=0;" edge="1" parent="1" source="M6pGRdiC99S7ldXGU6yD-23" target="9Ka-WZvEReShKsLX9K6u-78">
+        <mxCell id="M6pGRdiC99S7ldXGU6yD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.121;entryDx=0;entryDy=0;strokeColor=#FFFFFF;endArrow=none;endFill=0;dashed=1;entryPerimeter=0;" edge="1" parent="1" source="M6pGRdiC99S7ldXGU6yD-23" target="LEeNHCaEj4kO8tNSxgfI-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M6pGRdiC99S7ldXGU6yD-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=290;exitDy=25;exitPerimeter=0;strokeColor=#FFFFFF;entryX=0.114;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="M6pGRdiC99S7ldXGU6yD-25" target="TFtqeq52a5mFBRBLHfXz-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="748.434782608696" y="352.69565217391323" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6pGRdiC99S7ldXGU6yD-25" value="Os atributo vitória deriva do número de Séries em que a equipa participa e é vencedor, o derrotas do número de Séries em que participa e não é vencedor." style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;labelBackgroundColor=none;rounded=0;fillColor=#EEEEEE;strokeColor=#FFFFFF;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="56" y="353" width="290" height="112" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
