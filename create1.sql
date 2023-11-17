@@ -1,3 +1,4 @@
+PRAGMA foreign_keys = ON;
 BEGIN TRANSACTION;
 DROP TABLE IF EXISTS "Campeonato";
 CREATE TABLE IF NOT EXISTS "Campeonato" (
@@ -8,7 +9,7 @@ CREATE TABLE IF NOT EXISTS "Campeonato" (
 );
 DROP TABLE IF EXISTS "Grupo";
 CREATE TABLE IF NOT EXISTS "Grupo" (
-	"letraDoGrupo"	INTEGER NOT NULL,
+	"letraDoGrupo"	TEXT NOT NULL,
 	"DataDeInicio"	INTEGER NOT NULL,
 	"DataDoFim"	INTEGER NOT NULL,
 	"Campeonato"	TEXT NOT NULL,
