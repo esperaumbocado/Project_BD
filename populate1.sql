@@ -166,6 +166,170 @@ INSERT INTO Jogador (jogadorID, nome, birthday, mortes, abates, assistências, d
 
 
 
+--Série Grupos
+INSERT INTO Série (matchID, nomeEquipa1, nomeEquipa2, jogosEquipa1, jogosEquipa2, Grupo, FaseDePlayoffs) VALUES (1, 'Astralis', 'Liquid', 2, 0, 'A', NULL);
+INSERT INTO Série (matchID, nomeEquipa1, nomeEquipa2, jogosEquipa1, jogosEquipa2, Grupo, FaseDePlayoffs) VALUES (2, 'MIBR', 'Renegades', 0, 2, 'B', NULL);
+
+--Série playoffs
+INSERT INTO Série (matchID, nomeEquipa1, nomeEquipa2, jogosEquipa1, jogosEquipa2, Grupo, FaseDePlayoffs) VALUES (3, 'Hellraisers', 'G2', 2, 1, NULL, 'Finals');
+
+--Jogos / Estatistica
+
+INSERT INTO EstatisticasEquipaGrupo (Equipa, letraDoGrupo, vitorias, derrotas, diferençaDeRondas) VALUES ('Astralis', 'A', 2, 0, 9);
+INSERT INTO EstatisticasEquipaGrupo (Equipa, letraDoGrupo, vitorias, derrotas, diferençaDeRondas) VALUES ('Liquid', 'A', 0, 2, 9);
+INSERT INTO Jogo (jogoID, rondasEquipa1, rondasEquipa2, mapa, Série) VALUES (1, 16, 10, 'Mirage', 1);
+INSERT INTO Jogo (jogoID, rondasEquipa1, rondasEquipa2, mapa, Série) VALUES (2, 16, 13, 'Inferno', 1);
+
+INSERT INTO EstatisticasEquipaGrupo (Equipa, letraDoGrupo, vitorias, derrotas, diferençaDeRondas) VALUES ('MIBR', 'B', 0, 2, 19);
+INSERT INTO EstatisticasEquipaGrupo (Equipa, letraDoGrupo, vitorias, derrotas, diferençaDeRondas) VALUES ('Renegades', 'B', 2, 0, 19);
+INSERT INTO Jogo (jogoID, rondasEquipa1, rondasEquipa2, mapa, Série) VALUES (3, 0, 16, 'Dust 2', 2);
+INSERT INTO Jogo (jogoID, rondasEquipa1, rondasEquipa2, mapa, Série) VALUES (4, 11, 14, 'Mirage', 2);
+
+INSERT INTO EstatisticasEquipaGrupo (Equipa, letraDoGrupo, vitorias, derrotas, diferençaDeRondas) VALUES ('Hellraisers', NULL, 2, 1, 1);
+INSERT INTO EstatisticasEquipaGrupo (Equipa, letraDoGrupo, vitorias, derrotas, diferençaDeRondas) VALUES ('G2', NULL, 1, 2, 1);
+INSERT INTO Jogo (jogoID, rondasEquipa1, rondasEquipa2, mapa, Série) VALUES (5, 16, 14, 'Train', 3);
+INSERT INTO Jogo (jogoID, rondasEquipa1, rondasEquipa2, mapa, Série) VALUES (6, 11, 16, 'Inferno', 3);
+INSERT INTO Jogo (jogoID, rondasEquipa1, rondasEquipa2, mapa, Série) VALUES (7, 16, 12, 'Mirage', 3);
+
+--Rondas Jogo 1
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (1, 1, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (2, 2, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (3, 3, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (4, 4, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (5, 5, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (6, 6, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (7, 7, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (8, 8, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (9, 9, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (10, 10, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (11, 11, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (12, 12, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (13, 13, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (14, 14, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (15, 15, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (16, 16, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (17, 17, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (18, 18, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (19, 19, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (20, 20, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (21, 21, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (22, 22, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (23, 23, 'Astralis', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (24, 24, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (25, 25, 'Liquid', 1);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (26, 26, 'Astralis', 1);
+
+--Ronda jogo 2
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (27, 1, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (28, 2, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (29, 3, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (30, 4, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (31, 5, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (32, 6, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (33, 7, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (34, 8, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (35, 9, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (36, 10, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (37, 11, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (38, 12, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (39, 13, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (40, 14, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (41, 15, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (42, 16, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (43, 17, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (44, 18, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (45, 19, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (46, 20, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (47, 21, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (48, 22, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (49, 23, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (50, 24, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (51, 25, 'Liquid', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (52, 26, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (53, 27, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (54, 28, 'Astralis', 2);
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES (55, 29, 'Liquid', 2);
+
+
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES 
+(56, 1, 'Renegades', 3),
+(57, 2, 'Renegades', 3),
+(58, 3, 'Renegades', 3),
+(59, 4, 'Renegades', 3),
+(60, 5, 'Renegades', 3),
+(61, 6, 'Renegades', 3),
+(62, 7, 'Renegades', 3),
+(63, 8, 'Renegades', 3),
+(64, 9, 'Renegades', 3),
+(65, 10, 'Renegades', 3),
+(66, 11, 'Renegades', 3),
+(67, 12, 'Renegades', 3),
+(68, 13, 'Renegades', 3),
+(69, 14, 'Renegades', 3),
+(70, 15, 'Renegades', 3),
+(71, 16, 'Renegades', 3);
+
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES 
+(72, 1, 'Renegades', 4),
+(73, 2, 'Renegades', 4),
+(74, 3, 'MIBR', 4),
+(75, 4, 'MIBR', 4),
+(76, 5, 'Renegades', 4),
+(77, 6, 'Renegades', 4),
+(78, 7, 'MIBR', 4),
+(79, 8, 'Renegades', 4),
+(80, 9, 'Renegades', 4),
+(81, 10, 'MIBR', 4),
+(82, 11, 'Renegades', 4),
+(83, 12, 'Renegades', 4),
+(84, 13, 'MIBR', 4),
+(85, 14, 'Renegades', 4),
+(86, 15, 'MIBR', 4),
+(87, 16, 'Renegades', 4),
+(88, 17, 'MIBR', 4),
+(89, 18, 'Renegades', 4),
+(90, 19, 'MIBR', 4),
+(91, 20, 'MIBR', 4),
+(92, 21, 'Renegades', 4),
+(93, 22, 'MIBR', 4),
+(94, 23, 'MIBR', 4),
+(95, 24, 'Renegades', 4),
+(96, 25, 'Renegades', 4);
+
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES 
+(97, 1, 'G2', 5),
+(98, 2, 'Hellraisers', 5),
+(99, 3, 'G2', 5),
+(100, 4, 'G2', 5),
+(101, 5, 'Hellraisers', 5),
+(102, 6, 'G2', 5),
+(103, 7, 'Hellraisers', 5),
+(104, 8, 'Hellraisers', 5),
+(105, 9, 'G2', 5),
+(106, 10, 'G2', 5),
+(107, 11, 'Hellraisers', 5),
+(108, 12, 'Hellraisers', 5),
+(109, 13, 'G2', 5),
+(110, 14, 'Hellraisers', 5),
+(111, 15, 'Hellraisers', 5),
+(112, 16, 'G2', 5),
+(113, 17, 'G2', 5),
+(114, 18, 'Hellraisers', 5),
+(115, 19, 'G2', 5),
+(116, 20, 'G2', 5),
+(117, 21, 'Hellraisers', 5),
+(118, 22, 'Hellraisers', 5),
+(119, 23, 'G2', 5),
+(120, 24, 'Hellraisers', 5),
+(121, 25, 'G2', 5),
+(122, 26, 'G2', 5),
+(123, 27, 'Hellraisers', 5),
+(124, 28, 'Hellraisers', 5),
+(125, 29, 'Hellraisers', 5),
+(126, 30, 'Hellraisers', 5);
+
+
+
 /*
 -- Populating Campeonato table
 INSERT INTO Campeonato (nome, local, premio) VALUES ('Liga A', 'Brazil', 100000);
