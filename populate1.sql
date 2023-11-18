@@ -328,8 +328,113 @@ INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES
 (125, 29, 'Hellraisers', 5),
 (126, 30, 'Hellraisers', 5);
 
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES 
+(127, 1, 'Hellraisers', 6),
+(128, 2, 'G2', 6),
+(129, 3, 'Hellraisers', 6),
+(130, 4, 'G2', 6),
+(131, 5, 'G2', 6),
+(132, 6, 'Hellraisers', 6),
+(133, 7, 'G2', 6),
+(134, 8, 'G2', 6),
+(135, 9, 'Hellraisers', 6),
+(136, 10, 'G2', 6),
+(137, 11, 'Hellraisers', 6),
+(138, 12, 'G2', 6),
+(139, 13, 'G2', 6),
+(140, 14, 'Hellraisers', 6),
+(141, 15, 'G2', 6),
+(142, 16, 'G2', 6),
+(143, 17, 'Hellraisers', 6),
+(144, 18, 'Hellraisers', 6),
+(145, 19, 'G2', 6),
+(146, 20, 'Hellraisers', 6),
+(147, 21, 'G2', 6),
+(148, 22, 'G2', 6),
+(149, 23, 'Hellraisers', 6),
+(150, 24, 'G2', 6),
+(151, 25, 'Hellraisers', 6),
+(152, 26, 'G2', 6),
+(153, 27, 'Hellraisers', 6);
 
+INSERT INTO Ronda (rondaID, numeroDeRonda, vencedorDaRonda, Jogo) VALUES 
+(154, 1, 'Hellraisers', 7),
+(155, 2, 'Hellraisers', 7),
+(156, 3, 'Hellraisers', 7),
+(157, 4, 'Hellraisers', 7),
+(158, 5, 'G2', 7),
+(159, 6, 'G2', 7),
+(160, 7, 'G2', 7),
+(161, 8, 'Hellraisers', 7),
+(162, 9, 'Hellraisers', 7),
+(163, 10, 'Hellraisers', 7),
+(164, 11, 'G2', 7),
+(165, 12, 'G2', 7),
+(166, 13, 'Hellraisers', 7),
+(167, 14, 'Hellraisers', 7),
+(168, 15, 'Hellraisers', 7),
+(169, 16, 'Hellraisers', 7),
+(170, 17, 'G2', 7),
+(171, 18, 'G2', 7),
+(172, 19, 'Hellraisers', 7),
+(173, 20, 'G2', 7),
+(174, 21, 'Hellraisers', 7),
+(175, 22, 'G2', 7),
+(176, 23, 'G2', 7),
+(177, 24, 'Hellraisers', 7),
+(178, 25, 'Hellraisers', 7),
+(179, 26, 'G2', 7),
+(180, 27, 'Hellraisers', 7),
+(181, 28, 'G2', 7);
 
+INSERT INTO Evento (eventoID, ronda) VALUES 
+(1, 1),
+(2, 5),
+(3, 12),
+(4, 20),
+(5, 35),
+(6, 42),
+(7, 53),
+(8, 65),
+(9, 71),
+(10, 84),
+(11, 93),
+(12, 102),
+(13, 115),
+(14, 124),
+(15, 130),
+(16, 142),
+(17, 155),
+(18, 161),
+(19, 170),
+(20, 178);
+
+INSERT INTO Assistência (eventoID, JogadorQueAssistiu) VALUES 
+(1, 26);
+(4, 26),
+(5, 27),
+(6, 30),
+(12, 28),
+(13, 29),
+(19, 26),
+(20, 27);
+
+INSERT INTO Dano (eventoID, dano, jogadorQueCausouDano) VALUES 
+(2, 20, 5),
+(3, 50, 9),
+(7, 50, 2),
+(8, 65, 6),
+(9, 71, 22),
+(14, 50, 21),
+(15, 412, 29),
+(16, 45, 23),
+(17, 25, 28);
+
+INSERT INTO MorteAbate (eventoID, jogadorMorto, jogadorQueMatou) VALUES 
+(10, 2, 7),
+(11, 8, 3),
+(18, 26, 21),
+(19, 28, 22);
 /*
 -- Populating Campeonato table
 INSERT INTO Campeonato (nome, local, premio) VALUES ('Liga A', 'Brazil', 100000);
